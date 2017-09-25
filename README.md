@@ -1,13 +1,18 @@
-# gatsby-starter-default
-The default Gatsby starter
+# ed25519.nl
+A small site that tries to keep the state of ed25519 deployment in DNSSEC.
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+Built with [Gatsby](https://www.gatsbyjs.org/).
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
+## I want to update the site
+Awesome, send a PR!
 
-## Deploy
+To test your changes:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+ * Clone the repo
+ * `npm install`
+ * `./node_module/.bin/gatsby develop`
+ * Change files in `src/` until you're happy
+
+## TODO
+
+ * Use markdown instead of inline html
