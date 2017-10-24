@@ -18,12 +18,13 @@ const IndexPage = () => (
       <li><a href="http://unbound.net">Unbound</a> (since <a href="http://unbound.net/download.html">1.6.4</a>) supports ed25519 via the unreleased OpenSSL 1.1.1 and since version 1.6.6 via <a href="http://www.lysator.liu.se/~nisse/nettle/">libnettle</a></li>
       <li><a href="https://powerdns.com/auth.html">PowerDNS Authoritative Server</a> (since <a href="https://doc.powerdns.com/authoritative/changelog/4.0.html#powerdns-authoritative-server-4-0-0">4.0.0</a>) has support for signing with ed25519 using <a href="https://download.libsodium.org/doc/">libsodium</a></li>
       <li><a href="https://powerdns.com/recursor.html">PowerDNS Recursor</a> (since <a href="https://doc.powerdns.com/recursor/changelog/4.0.html#powerdns-recursor-4-0-5">4.0.5</a>) has support for validating ed25519 using libsodium</li>
+      <li><a href="https://sidn.nl">SIDN</a>, the Dutch registry supports adding DS records for ed25519 keys since October 24th 2017</li>
     </ul>
     </p>
     <h2>DNS software not supporting ed25519</h2>
     And an incomplete list of tools and servers that do not support ed25519:
     <ul>
-      <li><a href="https://sidn.nl">SIDN</a>, the Dutch registry does not support adding DS records for ed25519 keys since the moment of registration of this domain name (September 23rd 2017)</li>
+      <li><a href="https://transip.nl">TransIP</a>, the Dutch registrar does not support adding DS records for ed25519 keys</li>
       <li><a href="http://dnsviz.net/">DNSViz</a>, everybody's favorite DNSSEC debugging tool</li>
     </ul>
   </div>
