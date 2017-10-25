@@ -19,13 +19,13 @@ const IndexPage = () => (
       <li><a href="https://powerdns.com/auth.html">PowerDNS Authoritative Server</a> (since <a href="https://doc.powerdns.com/authoritative/changelog/4.0.html#powerdns-authoritative-server-4-0-0">4.0.0</a>) has support for signing with ed25519 using <a href="https://download.libsodium.org/doc/">libsodium</a></li>
       <li><a href="https://powerdns.com/recursor.html">PowerDNS Recursor</a> (since <a href="https://doc.powerdns.com/recursor/changelog/4.0.html#powerdns-recursor-4-0-5">4.0.5</a>) has support for validating ed25519 using libsodium</li>
       <li><a href="https://sidn.nl">SIDN</a>, the Dutch registry supports adding DS records for ed25519 keys since October 24th 2017</li>
+      <li><a href="https://transip.nl">TransIP</a>, the Dutch registrar supports adding DS records for ed25519 keys in their control panel since October 24th 2017</li>
     </ul>
     </p>
     <h2>DNS software not supporting ed25519</h2>
     And an incomplete list of tools and servers that do not support ed25519:
     <ul>
-      <li><a href="https://transip.nl">TransIP</a>, the Dutch registrar does not support adding DS records for ed25519 keys</li>
-      <li><a href="http://dnsviz.net/">DNSViz</a>, everybody's favorite DNSSEC debugging tool</li>
+      <li><a href="http://dnsviz.net/">DNSViz</a>, everybody's favorite DNSSEC debugging tool. A <a href="https://github.com/dnsviz/dnsviz/pull/29">Pull Request</a> is available.</li>
     </ul>
   </div>
 )
