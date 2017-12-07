@@ -26,6 +26,8 @@ const IndexPage = () => (
     And an incomplete list of tools and servers that do not support ed25519:
     <ul>
       <li><a href="http://dnsviz.net/">DNSViz</a>, everybody's favorite DNSSEC debugging tool. A <a href="https://github.com/dnsviz/dnsviz/pull/29">Pull Request</a> is available.</li>
+      <li>The <a href="http://dnssec-debugger.verisignlabs.com/ed25519.nl">DNSSEC Debugger</a> from <a href="https://www.verisign.com/en_US/company-information/verisign-labs/index.xhtml">Verisign Labs</a>.</li>
+      <li><a href="https://zonemaster.net/test/dfef20e1471b2009">Zonemaster</a>, a zone-checking tool by <a href="https://www.afnic.fr/en/">AFNIC</a> and <a href="https://www.iis.se/english/">IIS</a></li>
     </ul>
   </div>
 )
