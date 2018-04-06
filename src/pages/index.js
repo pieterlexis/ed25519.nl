@@ -22,6 +22,7 @@ const IndexPage = () => (
       <li>The <a href="http://dnssec-debugger.verisignlabs.com/ed25519.nl">DNSSEC Debugger</a> from <a href="https://www.verisign.com/en_US/company-information/verisign-labs/index.xhtml">Verisign Labs</a>.</li>
       <li><a href="https://sidn.nl">SIDN</a>, the Dutch registry supports adding DS records for ed25519 keys since October 24th 2017</li>
       <li><a href="https://transip.nl">TransIP</a>, the Dutch registrar supports adding DS records for ed25519 keys in their control panel since October 24th 2017</li>
+      <li><a href="https://1.1.1.1">1.1.1.1</a>, the anycast public DNS resolver from Cloudflare and APNIC supports validating ed25519</li>
     </ul>
     </p>
     <h2>DNS software not supporting ed25519</h2>
