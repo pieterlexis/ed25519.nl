@@ -14,8 +14,9 @@ const IndexPage = () => (
     <p>This is an incomplete list of DNS tools and servers that support or will support ed25519:
     <ul>
       <li><a href="https://www.isc.org/downloads/bind/">BIND 9</a> (unreleased) has <a href="https://source.isc.org/cgi-bin/gitweb.cgi?p=bind9.git;a=commit;h=9b9182fe00c0cdaf9a94bbe84e685adad84f47a4">support</a> based on the upcoming <a href="https://github.com/openssl/openssl/pull/3361">OpenSSL 1.1.1</a></li>
+      <li><a href="http://www.thekelleys.org.uk/dnsmasq/doc.html">dnsmasq</a> (since <a href="http://www.thekelleys.org.uk/dnsmasq/CHANGELOG">2.79</a>), a small DHCP server and DNS forwarder supports ed25519 using <a href="http://www.lysator.liu.se/~nisse/nettle/">libnettle</a></li>
       <li><a href="https://www.knot-dns.cz/">Knot DNS</a> (since <a href="https://www.knot-dns.cz/2017-09-29-version-260.html">2.6.0</a>) supports ed25519 using <a href="http://nmav.gnutls.org/2017/08/gnutls-3-6-0.html">GnuTLS 3.6.0</a></li>
-      <li><a href="http://unbound.net">Unbound</a> (since <a href="http://unbound.net/download.html">1.6.4</a>) supports ed25519 via the unreleased OpenSSL 1.1.1 and since version 1.6.6 via <a href="http://www.lysator.liu.se/~nisse/nettle/">libnettle</a></li>
+      <li><a href="http://unbound.net">Unbound</a> (since <a href="http://unbound.net/download.html">1.6.4</a>) supports ed25519 via the unreleased OpenSSL 1.1.1 and since version 1.6.6 via libnettle</li>
       <li><a href="https://powerdns.com/auth.html">PowerDNS Authoritative Server</a> (since <a href="https://doc.powerdns.com/authoritative/changelog/4.0.html#powerdns-authoritative-server-4-0-0">4.0.0</a>) has support for signing with ed25519 using <a href="https://download.libsodium.org/doc/">libsodium</a></li>
       <li><a href="https://powerdns.com/recursor.html">PowerDNS Recursor</a> (since <a href="https://doc.powerdns.com/recursor/changelog/4.0.html#powerdns-recursor-4-0-5">4.0.5</a>) has support for validating ed25519 using libsodium</li>
       <li>The <a href="http://dnssec-debugger.verisignlabs.com/ed25519.nl">DNSSEC Debugger</a> from <a href="https://www.verisign.com/en_US/company-information/verisign-labs/index.xhtml">Verisign Labs</a>.</li>
@@ -30,7 +31,6 @@ const IndexPage = () => (
       <li><a href="http://dnsviz.net/">DNSViz</a>, everybody's favorite DNSSEC debugging tool. A <a href="https://github.com/dnsviz/dnsviz/pull/29">Pull Request</a> is available.</li>
       <li><a href="https://zonemaster.net/test/dfef20e1471b2009">Zonemaster</a>, a zone-checking tool by <a href="https://www.afnic.fr/en/">AFNIC</a> and <a href="https://www.iis.se/english/">IIS</a></li>
       <li><a href="https://www.freedesktop.org/software/systemd/man/systemd-resolve.html">systemd-resolved</a>, the resolver/forwarder in systemd. A <a href="https://github.com/systemd/systemd/pull/7600">Pull Request</a> has been merged and will be included in the next release.</li>
-      <li><a href="http://www.thekelleys.org.uk/dnsmasq/doc.html">dnsmasq</a>, a small DHCP server and DNS forwarder. Support <a href="http://thekelleys.org.uk/gitweb/?p=dnsmasq.git;a=commit;h=ad9c6f06c5ceebbeda3796e1649d1226e86eb769">has been merged</a> into the development version.</li>
     </ul>
   </div>
 )
