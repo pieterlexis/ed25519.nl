@@ -29,7 +29,7 @@ const IndexPage = () => (
       <li><a href="https://www.opendnssec.org/">OpenDNSSEC</a>, a zone-signing tool. A <a href="https://issues.opendnssec.org/browse/SUPPORT-222">feature request</a> exists on the issue-tracker.</li>
       <li><a href="http://dnsviz.net/">DNSViz</a>, everybody's favorite DNSSEC debugging tool. A <a href="https://github.com/dnsviz/dnsviz/pull/29">Pull Request</a> is available.</li>
       <li><a href="https://zonemaster.net/test/dfef20e1471b2009">Zonemaster</a>, a zone-checking tool by <a href="https://www.afnic.fr/en/">AFNIC</a> and <a href="https://www.iis.se/english/">IIS</a></li>
-      <li><a href="https://www.freedesktop.org/software/systemd/man/systemd-resolve.html">systemd-resolved</a>, the resolver/forwarder in systemd. A <a href="https://github.com/systemd/systemd/pull/7600">Pull Request</a> has been merged and will be included in the next release.</li>
+      <li><a href="https://www.freedesktop.org/software/systemd/man/systemd-resolve.html">systemd-resolved</a>, the resolver/forwarder in systemd. A <a href="https://github.com/systemd/systemd/pull/7600">Pull Request</a> has been merged and is part <a href="https://github.com/systemd/systemd/releases/tag/v236">release v236</a>.</li>
       <li><a href="http://www.thekelleys.org.uk/dnsmasq/doc.html">dnsmasq</a>, a small DHCP server and DNS forwarder. Support <a href="http://thekelleys.org.uk/gitweb/?p=dnsmasq.git;a=commit;h=ad9c6f06c5ceebbeda3796e1649d1226e86eb769">has been merged</a> into the development version.</li>
     </ul>
   </div>
