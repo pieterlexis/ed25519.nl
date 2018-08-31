@@ -31,8 +31,8 @@ const IndexPage = () => (
     And an incomplete list of tools and servers that do not support ed25519:
     <ul>
       <li><a href="https://www.opendnssec.org/">OpenDNSSEC</a>, a zone-signing tool. A <a href="https://issues.opendnssec.org/browse/SUPPORT-222">feature request</a> exists on the issue-tracker.</li>
-      <li><a href="http://dnsviz.net/">DNSViz</a>, everybody's favorite DNSSEC debugging tool. A <a href="https://github.com/dnsviz/dnsviz/pull/29">Pull Request</a> is available.</li>
-      <li><a href="https://zonemaster.net/test/dfef20e1471b2009">Zonemaster</a>, a zone-checking tool by <a href="https://www.afnic.fr/en/">AFNIC</a> and <a href="https://www.iis.se/english/">IIS</a></li>
+      <li><a href="http://dnsviz.net/">DNSViz</a>, everybody's favorite DNSSEC debugging tool. <a href="https://github.com/dnsviz/dnsviz/commit/fd2e63794a85d89120a4c51283e36d6c3516b634">Code has been added</a>, but not deployed.</li>
+      <li><a href="https://zonemaster.net/result/0a33e4546a1b15e0">Zonemaster</a>, a zone-checking tool by <a href="https://www.afnic.fr/en/">AFNIC</a> and <a href="https://www.iis.se/english/">IIS</a></li>
     </ul>
   </div>
 )
