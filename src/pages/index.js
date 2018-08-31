@@ -23,6 +23,7 @@ const IndexPage = () => (
       <li><a href="https://sidn.nl">SIDN</a>, the Dutch registry supports adding DS records for ed25519 keys since October 24th 2017</li>
       <li><a href="https://transip.nl">TransIP</a>, the Dutch registrar supports adding DS records for ed25519 keys in their control panel since October 24th 2017</li>
       <li><a href="https://1.1.1.1">1.1.1.1</a>, the anycast public DNS resolver from Cloudflare and APNIC is based on Knot and also supports validating ed25519</li>
+      <li><a href="https://www.freedesktop.org/software/systemd/man/systemd-resolve.html">systemd-resolved</a>, the resolver/forwarder in systemd. A <a href="https://github.com/systemd/systemd/pull/7600">Pull Request</a> has been merged and is part of <a href="https://github.com/systemd/systemd/releases/tag/v236">release 236</a>.</li>
     </ul>
     </p>
     <h2>DNS software not supporting ed25519</h2>
@@ -31,7 +32,6 @@ const IndexPage = () => (
       <li><a href="https://www.opendnssec.org/">OpenDNSSEC</a>, a zone-signing tool. A <a href="https://issues.opendnssec.org/browse/SUPPORT-222">feature request</a> exists on the issue-tracker.</li>
       <li><a href="http://dnsviz.net/">DNSViz</a>, everybody's favorite DNSSEC debugging tool. A <a href="https://github.com/dnsviz/dnsviz/pull/29">Pull Request</a> is available.</li>
       <li><a href="https://zonemaster.net/test/dfef20e1471b2009">Zonemaster</a>, a zone-checking tool by <a href="https://www.afnic.fr/en/">AFNIC</a> and <a href="https://www.iis.se/english/">IIS</a></li>
-      <li><a href="https://www.freedesktop.org/software/systemd/man/systemd-resolve.html">systemd-resolved</a>, the resolver/forwarder in systemd. A <a href="https://github.com/systemd/systemd/pull/7600">Pull Request</a> has been merged and will be included in the next release.</li>
     </ul>
   </div>
 )
