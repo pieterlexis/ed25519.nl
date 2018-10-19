@@ -24,14 +24,14 @@ const IndexPage = () => (
       <li><a href="https://transip.nl">TransIP</a>, the Dutch registrar supports adding DS records for ed25519 keys in their control panel since October 24th 2017</li>
       <li><a href="https://1.1.1.1">1.1.1.1</a>, the anycast public DNS resolver from Cloudflare and APNIC is based on Knot and also supports validating ed25519</li>
       <li><a href="https://www.freedesktop.org/software/systemd/man/systemd-resolve.html">systemd-resolved</a>, the resolver/forwarder in systemd. A <a href="https://github.com/systemd/systemd/pull/7600">Pull Request</a> has been merged and is part of <a href="https://github.com/systemd/systemd/releases/tag/v236">release 236</a>.</li>
-      <li><a href="https://developers.google.com/speed/public-dns/">Google Public DNS</a> added ed25519 validation late august 2018.</li>
+      <li><a href="https://developers.google.com/speed/public-dns/">Google Public DNS</a> added ed25519 validation in late August 2018.</li>
+      <li><a href="http://dnsviz.net/">DNSViz</a>, everybody's favorite DNSSEC debugging tool, <a href="https://github.com/dnsviz/dnsviz/commit/fd2e63794a85d89120a4c51283e36d6c3516b634">added ed25519 support in January 2018</a>. It was deployed in the fall of 2018, and retroactively displays correct validation analysis for all historical data.</li>
     </ul>
     </p>
     <h2>DNS software not supporting ed25519</h2>
     And an incomplete list of tools and servers that do not support ed25519:
     <ul>
       <li><a href="https://www.opendnssec.org/">OpenDNSSEC</a>, a zone-signing tool. A <a href="https://issues.opendnssec.org/browse/SUPPORT-222">feature request</a> exists on the issue-tracker.</li>
-      <li><a href="http://dnsviz.net/">DNSViz</a>, everybody's favorite DNSSEC debugging tool. <a href="https://github.com/dnsviz/dnsviz/commit/fd2e63794a85d89120a4c51283e36d6c3516b634">Code has been added</a>, but not deployed.</li>
       <li><a href="https://zonemaster.net/result/0a33e4546a1b15e0">Zonemaster</a>, a zone-checking tool by <a href="https://www.afnic.fr/en/">AFNIC</a> and <a href="https://www.iis.se/english/">IIS</a></li>
     </ul>
   </div>
