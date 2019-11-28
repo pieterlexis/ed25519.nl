@@ -28,11 +28,15 @@ const IndexPage = () => (
     </ul>
     </p>
     <h2>DNS software not supporting ed25519</h2>
-    And an incomplete list of tools and servers that do not support ed25519:
+    An incomplete list of tools and servers that do not support ed25519:
+    <u1>
+    </u1>
+    <h2>DNS software working on ed25519 support</h2>
+    And an incomplete list of tools and servers working on ed25519 support:
     <ul>
       <li><a href="https://www.opendnssec.org/">OpenDNSSEC</a>, a zone-signing tool. A <a href="https://issues.opendnssec.org/browse/SUPPORT-222">feature request</a> exists on the issue-tracker.</li>
       <li><a href="http://dnsviz.net/">DNSViz</a>, everybody's favorite DNSSEC debugging tool. <a href="https://github.com/dnsviz/dnsviz/commit/fd2e63794a85d89120a4c51283e36d6c3516b634">Code has been added</a>, but not deployed.</li>
-      <li><a href="https://zonemaster.net/result/0a33e4546a1b15e0">Zonemaster</a>, a zone-checking tool by <a href="https://www.afnic.fr/en/">AFNIC</a> and <a href="https://www.iis.se/english/">IIS</a></li>
+      <li><a href="https://zonemaster.net/result/0a33e4546a1b15e0">Zonemaster</a>, a zone-checking tool by <a href="https://www.afnic.fr/en/">AFNIC</a> and <a href="https://www.iis.se/english/">IIS</a> <a href="https://github.com/zonemaster/zonemaster-ldns/pull/85">Code has been added</a></li>
     </ul>
   </div>
 )
