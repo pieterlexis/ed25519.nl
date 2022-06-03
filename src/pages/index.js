@@ -5,7 +5,7 @@ const IndexPage = () => (
   <div>
     <h1>ed25519 for DNSSEC</h1>
     <p>Ed25519 is a <a href="https://ed25519.cr.yp.to/">public-key signature</a> system invented by <a href="https://ed25519.cr.yp.to/ed25519-20110926.pdf">Bernstein et al.</a> that is standardized for use in internet protocols as <a href="https://tools.ietf.org/html/rfc8032">RFC 8032</a>. In <a href="https://tools.ietf.org/html/rfc8080">RFC 8080</a>, ed25519 (and ed448) were standardized for use in <a href="https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions">DNSSEC</a> in February 2017.</p>
-    <p>This domainname, is DNSSEC signed with <a href="http://dnsviz.net/d/ed25519.nl/WcjLeg/dnssec/">this algorithm</a>.</p>
+    <p>This domainname, is DNSSEC signed with <a href="https://dnsviz.net/d/ed25519.nl/YjBthw/dnssec/">this algorithm</a>.</p>
     <h2>Why use ed25519 for DNSSEC signatures?</h2>
     <p>ed25519, as an <a href="https://en.wikipedia.org/wiki/Elliptic-curve_cryptography">elliptic curve cryptography</a>(ECC) signature algorithm, offers high security signatures in a small signature size. A 256 bit ECC key has similar security properties to 3072 bit RSA signatures (see table 3, page 53 of <a href="http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r4.pdf">NIST SP 800-57</a>).</p>
     <p>As an example, an ed25519 signature is 64 bytes long, compared to 256 bytes for an RSA 2048 signature. These smaller signatures ensure that <a href="https://blog.cloudflare.com/deep-inside-a-dns-amplification-ddos-attack/">DNS amplification</a> attacks are less severe than before, without sacrificing the security of DNSSEC.</p>
@@ -25,14 +25,14 @@ const IndexPage = () => (
       <li><a href="https://1.1.1.1">1.1.1.1</a>, the anycast public DNS resolver from Cloudflare and APNIC is based on Knot and also supports validating ed25519</li>
       <li><a href="https://www.freedesktop.org/software/systemd/man/systemd-resolve.html">systemd-resolved</a>, the resolver/forwarder in systemd. A <a href="https://github.com/systemd/systemd/pull/7600">Pull Request</a> has been merged and is part of <a href="https://github.com/systemd/systemd/releases/tag/v236">release 236</a>.</li>
       <li><a href="https://developers.google.com/speed/public-dns/">Google Public DNS</a> added ed25519 validation late august 2018.</li>
+      <li><a href="https://zonemaster.net/result/485845a5143d7615">Zonemaster</a>, a zone-checking tool by <a href="https://www.afnic.fr/en/">AFNIC</a> and <a href="https://www.iis.se/english/">IIS</a></li>
+      <li><a href="https://www.opendnssec.org/">OpenDNSSEC</a>, a zone-signing tool, added support in 2.1.7 (October 2020).</li>
+      <li><a href="http://dnsviz.net/">DNSViz</a>, everybody's favorite DNSSEC debugging tool.</li>
     </ul>
     </p>
     <h2>DNS software not supporting ed25519</h2>
-    And an incomplete list of tools and servers that do not support ed25519:
+      None!
     <ul>
-      <li><a href="https://www.opendnssec.org/">OpenDNSSEC</a>, a zone-signing tool. A <a href="https://issues.opendnssec.org/browse/SUPPORT-222">feature request</a> exists on the issue-tracker.</li>
-      <li><a href="http://dnsviz.net/">DNSViz</a>, everybody's favorite DNSSEC debugging tool. <a href="https://github.com/dnsviz/dnsviz/commit/fd2e63794a85d89120a4c51283e36d6c3516b634">Code has been added</a>, but not deployed.</li>
-      <li><a href="https://zonemaster.net/result/0a33e4546a1b15e0">Zonemaster</a>, a zone-checking tool by <a href="https://www.afnic.fr/en/">AFNIC</a> and <a href="https://www.iis.se/english/">IIS</a></li>
     </ul>
   </div>
 )
